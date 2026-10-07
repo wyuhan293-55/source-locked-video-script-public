@@ -76,8 +76,8 @@
 ## 当前文件
 
 ```text
-source-locked-video-script/
 ├── SKILL.md
+├── README.md
 ├── agents/
 │   └── openai.yaml
 └── references/
@@ -89,3 +89,15 @@ source-locked-video-script/
 旧版固定结构、Reviewer 展示层、Adapter 和历史案例已经从当前主版本移除；需要时可从 Git 历史恢复。
 
 本仓库是脚本 Skill 的唯一事实源。后续脚本逻辑只在这里迭代。
+
+## 安装
+
+```bash
+git clone https://github.com/wyuhan293-55/source-locked-video-script-public.git ~/.codex/skills/source-locked-video-script
+```
+
+调用：
+
+```text
+使用 $source-locked-video-script 分析这批原素材
+```
